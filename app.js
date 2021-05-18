@@ -38,7 +38,7 @@ function bytesToSize(bytes) {
 function getJson() {
 
 
-    fetch('posts.json')
+    fetch('videos.json')
         .then(function(res) {
             return res.json();
         })
@@ -183,7 +183,7 @@ function filterTasks(e) {
 
 
 
-        fetch('posts.json')
+        fetch('videos.json')
             .then(function(res) {
                 return res.json();
             })
