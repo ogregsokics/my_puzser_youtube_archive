@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
-  <title>Ajax Sandbox</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Puzsér Youtube Archívum</title>
 </head>
+
 <body>
-<img src="Vita a szocializmusról _ HARD TALK #19.jpg" alt="Girl in a jacket" width="500" height="600">
-<div class="container">
-    <div class="row">
-      <div class="col s12">
-        <div id="main" class="card">
-       
-          <div class="card-action">
-            <h5 id="task-title">Keresés az archívumban</h5>
-            <div class="input-field col s12">
-              <input type="text" name="filter" id="filter" placeholder="ide írd, hogy mit keresel">
-             
+    <div class="container">
+        <h1>Puzsér Youtube Archívum</h1>
+        <div class="row">
+            <div class="col s6">
+                <div id="main1" class="card">
+                    <div class="card-action">
+                        <h5 id="task-title">Search for video and audio files</h5>
+                        <div class="input-field col s6">
+                            <input type="text" name="filter" id="filter1" placeholder="ide írd, hogy mit keresel">
+                        </div>
+                    </div>
+                </div>
             </div>
-           
-           
-          </div>
+            <div class="col s6">
+                <div id="main2" class="card">
+                    <div class="card-action">
+                        <h5 id="task-title">Search for thumbnails and descriptions</h5>
+                        <div class="input-field col s6">
+                            <input type="text" name="filter" id="filter2" placeholder="ide írd, hogy mit keresel">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-
-
-
-
-
-
-  <div class="container">
-    <h1>Puzsér Youtube Archívum</h1>
-    
-    <button id="button2">Összes elem megjelenítése</button>
-    
-    <br><br>
-    <div id="output"></div>
-  </div>
-
-
-   <div class="container">
-    
-    <table class="u-full-width">
-      
-      <tbody id="book-list"></tbody>
-    </table>
-  </div>
-
-  <script src="app.js"></script>
+    <div class="container">
+        <button id="button2">List all video and audio files</button>
+        <button id="button3">List all thumbnails and descriptions</button>
+        <br><br>
+        <div id="output"></div>
+    </div>
+    <div class="container">
+        <table class="u-full-width">
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
