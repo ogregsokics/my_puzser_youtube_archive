@@ -1,4 +1,656 @@
 [
+
+
+    {
+        "sorszam": 1,
+        "getName": "listing of folder Folder Name - 6/10/2021, 2:09:41 PM",
+        "getUrl": "https://docs.google.com/spreadsheets/d/14R8CdSKDaQ6ulJcUSK6G_Gf0FrmpAcfYwc1lXx6IeI4/edit?usp=drivesdk",
+        "getDownloadUrl": "",
+        "getMimeType": "application/vnd.google-apps.spreadsheet",
+        "getSize": 0
+    },
+    {
+        "sorszam": 2,
+        "getName": "Untitled project",
+        "getUrl": "https://script.google.com/d/1nWl-LTMfixFff0ZfqnstluIXtaFNwWfIpZoSa7HUcJvwAupyRDK4iIXH/edit?usp=drivesdk",
+        "getDownloadUrl": "",
+        "getMimeType": "application/vnd.google-apps.script",
+        "getSize": 0
+    },
+    {
+        "sorszam": 3,
+        "getName": "puzser.zip",
+        "getUrl": "https://drive.google.com/file/d/1WJ_9TPQ5kyZRvuAHUyY95dSMBUgVibY2/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1WJ_9TPQ5kyZRvuAHUyY95dSMBUgVibY2&export=download",
+        "getMimeType": "application/zip",
+        "getSize": 3229265259
+    },
+    {
+        "sorszam": 4,
+        "getName": "puzser.zip_tartalma.png",
+        "getUrl": "https://drive.google.com/file/d/1dyXGsdaWXtgzRfoWivihFNKt8qyVLPcv/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1dyXGsdaWXtgzRfoWivihFNKt8qyVLPcv&export=download",
+        "getMimeType": "image/png",
+        "getSize": 144283
+    },
+    {
+        "sorszam": 5,
+        "getName": "demokrácia részvénytársaság promo.zip",
+        "getUrl": "https://drive.google.com/file/d/1N4fCU_L4TcYtuUe82aPcoDp5NsPM-oNB/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1N4fCU_L4TcYtuUe82aPcoDp5NsPM-oNB&export=download",
+        "getMimeType": "application/zip",
+        "getSize": 1390083590
+    },
+    {
+        "sorszam": 6,
+        "getName": "A tíz legmérgezőbb magyar popsztár - Sznobjektív [#79].mp4",
+        "getUrl": "https://drive.google.com/file/d/1u6YqM-HdVNR24lUgqA4jMr0xLV4zoVR0/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1u6YqM-HdVNR24lUgqA4jMr0xLV4zoVR0&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 519465399
+    },
+    {
+        "sorszam": 7,
+        "getName": "Radikalizáció, szabadság; Horváth Tamás: Dzsoki [ÖM #382].mp3",
+        "getUrl": "https://drive.google.com/file/d/1tw4Pq8QblZvxTZcRtEh8Q3cXPROB1qjt/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1tw4Pq8QblZvxTZcRtEh8Q3cXPROB1qjt&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 86954735
+    },
+    {
+        "sorszam": 8,
+        "getName": "Pitiáner dilemmák; Nagy Szilárd feat. Ragány Misa: Európa 2020 [ÖM #381].mp3",
+        "getUrl": "https://drive.google.com/file/d/1cUv4TKH2ErQvp30agAE9cCsLd8T0Q3WP/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1cUv4TKH2ErQvp30agAE9cCsLd8T0Q3WP&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 80241057
+    },
+    {
+        "sorszam": 9,
+        "getName": "A tíz legmérgezőbb magyar popsztár - Sznobjektív [#79].description",
+        "getUrl": "https://drive.google.com/file/d/144kd7Y6oJiZz0MjpM7CSXlbVo7EtQGB5/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=144kd7Y6oJiZz0MjpM7CSXlbVo7EtQGB5&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 131
+    },
+    {
+        "sorszam": 10,
+        "getName": "A tíz legmérgezőbb magyar popsztár - Sznobjektív [#79].jpg",
+        "getUrl": "https://drive.google.com/file/d/1cvy8LGn35zLO5dy2xXW_4BtcUJ-YbCGr/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1cvy8LGn35zLO5dy2xXW_4BtcUJ-YbCGr&export=download",
+        "getMimeType": "image/jpeg",
+        "getSize": 186694
+    },
+    {
+        "sorszam": 11,
+        "getName": "Wage gap; NEMAZALÁNY x SOFI x LOTFI BEGI: ÜRES SZÍVEK 2 [ÖM #380].mp3",
+        "getUrl": "https://drive.google.com/file/d/1P9GHb-cIDF526YSbxf2NBqlPCtzJt8Gt/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1P9GHb-cIDF526YSbxf2NBqlPCtzJt8Gt&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 83096972
+    },
+    {
+        "sorszam": 12,
+        "getName": "A tíz legmérgezőbb magyar popsztár - Sznobjektív [#79].mp3",
+        "getUrl": "https://drive.google.com/file/d/1uex9Ii3lk2DgJmfI1APwo-okM4DsLGTD/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1uex9Ii3lk2DgJmfI1APwo-okM4DsLGTD&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 41663469
+    },
+    {
+        "sorszam": 13,
+        "getName": "Márki-Zay Péter és Puzsér Róbert beszélgetése | 2021.06.05..mp4",
+        "getUrl": "https://drive.google.com/file/d/12713zi7LiBzTymancE0TvY7mw2nvOI5y/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=12713zi7LiBzTymancE0TvY7mw2nvOI5y&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 379470602
+    },
+    {
+        "sorszam": 14,
+        "getName": "A humor nagyágyúi és az elveszejtett köztársaság – Heti Hetes Reloaded Powered by Gulyás Márton.webp",
+        "getUrl": "https://drive.google.com/file/d/11m48xc_JY05Xni7kdQ6F0Q8pfdz0Wsgr/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=11m48xc_JY05Xni7kdQ6F0Q8pfdz0Wsgr&export=download",
+        "getMimeType": "image/webp",
+        "getSize": 73490
+    },
+    {
+        "sorszam": 15,
+        "getName": "A humor nagyágyúi és az elveszejtett köztársaság – Heti Hetes Reloaded Powered by Gulyás Márton.description",
+        "getUrl": "https://drive.google.com/file/d/1FgU7E3RH7FG1gIaN1lXjrJ0nvhBiWlUV/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1FgU7E3RH7FG1gIaN1lXjrJ0nvhBiWlUV&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 410
+    },
+    {
+        "sorszam": 16,
+        "getName": "Közös imahely; egyetemi safe space-ek; kijárási tilalom férfiaknak [ÖM #379].mp3",
+        "getUrl": "https://drive.google.com/file/d/1ih4JqjocRdOk0eUQiXIEYVBSE8IM8xbf/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1ih4JqjocRdOk0eUQiXIEYVBSE8IM8xbf&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 82434088
+    },
+    {
+        "sorszam": 17,
+        "getName": "Zombimítosz; Elon Musk-jelenség [ÖM #378].mp3",
+        "getUrl": "https://drive.google.com/file/d/111RH4t2JA_nQK0exdT4jW1BTRDIVhei0/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=111RH4t2JA_nQK0exdT4jW1BTRDIVhei0&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 75456678
+    },
+    {
+        "sorszam": 18,
+        "getName": "Kapcsolat újrakezdés után; márkás ruhában koldulás; Auth Csilla: Vigyél el [ÖM #377].mp3",
+        "getUrl": "https://drive.google.com/file/d/1eF4_OSz5n_GEzzOYhJDNiE4JwrEoe8rL/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1eF4_OSz5n_GEzzOYhJDNiE4JwrEoe8rL&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 87898632
+    },
+    {
+        "sorszam": 19,
+        "getName": "Tíz ostobaság, amivel hülyítik magukat a nők - Sznobjektív [#78].mp4",
+        "getUrl": "https://drive.google.com/file/d/1vvC5faShmVuN6FeGtdAouVtH9UUv_4zK/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1vvC5faShmVuN6FeGtdAouVtH9UUv_4zK&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 445295730
+    },
+    {
+        "sorszam": 20,
+        "getName": "Tíz ostobaság, amivel hülyítik magukat a nők - Sznobjektív [#78].mp3",
+        "getUrl": "https://drive.google.com/file/d/1G7z0O8IK8EkgWM2pVy-kp5PNgdUnw_1X/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1G7z0O8IK8EkgWM2pVy-kp5PNgdUnw_1X&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 42397405
+    },
+    {
+        "sorszam": 21,
+        "getName": "Heti Hetes Reloaded Powered by Gulyás Márton [ÖM #376].mp3",
+        "getUrl": "https://drive.google.com/file/d/1LkFdA2eApiHb8yIWK9E-DC8MoY1OduUr/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1LkFdA2eApiHb8yIWK9E-DC8MoY1OduUr&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 85236505
+    },
+    {
+        "sorszam": 22,
+        "getName": "Tíz ostobaság, amivel hülyítik magukat a nők - Sznobjektív [#78].description",
+        "getUrl": "https://drive.google.com/file/d/19Gh2GHrYCACd5meS7bcCaMtcUeZmHbba/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=19Gh2GHrYCACd5meS7bcCaMtcUeZmHbba&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 126
+    },
+    {
+        "sorszam": 23,
+        "getName": "Tíz ostobaság, amivel hülyítik magukat a nők - Sznobjektív [#78].jpg",
+        "getUrl": "https://drive.google.com/file/d/1C4IDGvrzQHU5Uv2CkAxpbXpxmTW7mFR2/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1C4IDGvrzQHU5Uv2CkAxpbXpxmTW7mFR2&export=download",
+        "getMimeType": "image/jpeg",
+        "getSize": 186694
+    },
+    {
+        "sorszam": 24,
+        "getName": "Öt Karácsony turkált ingéről, a beszervezett Karikó Katalinról és Európa éber kómájáról.mp4",
+        "getUrl": "https://drive.google.com/file/d/1bOslRwNbc8qgK6Y7xUIBnsDOS7baZ5jU/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1bOslRwNbc8qgK6Y7xUIBnsDOS7baZ5jU&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 584714446
+    },
+    {
+        "sorszam": 25,
+        "getName": "Öt Karácsony turkált ingéről, a beszervezett Karikó Katalinról és Európa éber kómájáról | [Öt #37] | 2021.05.28. .mp3",
+        "getUrl": "https://drive.google.com/file/d/1ldR-d9NZsp2GD6rdDa4Ll_t2KWZBuCd8/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1ldR-d9NZsp2GD6rdDa4Ll_t2KWZBuCd8&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 57041859
+    },
+    {
+        "sorszam": 26,
+        "getName": "Öt Karácsony turkált ingéről, a beszervezett Karikó Katalinról és Európa éber kómájáról.description",
+        "getUrl": "https://drive.google.com/file/d/1NtepWsrMJbDlaBqlsIrDn9800Z2wK5QK/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1NtepWsrMJbDlaBqlsIrDn9800Z2wK5QK&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 305
+    },
+    {
+        "sorszam": 27,
+        "getName": "Öt Karácsony turkált ingéről, a beszervezett Karikó Katalinról és Európa éber kómájáról.jpg",
+        "getUrl": "https://drive.google.com/file/d/1OnkhRM6c7ArvoKvQ2bDmQgZigwJtuyHJ/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1OnkhRM6c7ArvoKvQ2bDmQgZigwJtuyHJ&export=download",
+        "getMimeType": "image/webp",
+        "getSize": 4896
+    },
+    {
+        "sorszam": 28,
+        "getName": "Az alkotóművészetek rendje [ÖM #375].mp3",
+        "getUrl": "https://drive.google.com/file/d/1kEjvoa8v1TvyP4YQlNhKDMfTzsd8mwMd/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1kEjvoa8v1TvyP4YQlNhKDMfTzsd8mwMd&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 94625540
+    },
+    {
+        "sorszam": 29,
+        "getName": "Kötöttfogás #140 | 2021.05.27..mp4",
+        "getUrl": "https://drive.google.com/file/d/1GhEU4cpL98loQq7GA49vCn73FhKU-YC0/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1GhEU4cpL98loQq7GA49vCn73FhKU-YC0&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 808246722
+    },
+    {
+        "sorszam": 30,
+        "getName": "Kötöttfogás #140 | 2021.05.27..m4a",
+        "getUrl": "https://drive.google.com/file/d/1XcnAmWvv4O6-h1obgQw1_-XND9qkvosE/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1XcnAmWvv4O6-h1obgQw1_-XND9qkvosE&export=download",
+        "getMimeType": "audio/x-m4a",
+        "getSize": 67549687
+    },
+    {
+        "sorszam": 31,
+        "getName": "Kötöttfogás #140 _ 2021.05.27..description",
+        "getUrl": "https://drive.google.com/file/d/1-AmSsUDuLziMddiqm1yCiLUwc31ybO8J/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1-AmSsUDuLziMddiqm1yCiLUwc31ybO8J&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 398
+    },
+    {
+        "sorszam": 32,
+        "getName": "Kötöttfogás #140 _ 2021.05.27..jpg",
+        "getUrl": "https://drive.google.com/file/d/1tkj3sPRU7J3sOnHzkFSTbvpNRnY41JXZ/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1tkj3sPRU7J3sOnHzkFSTbvpNRnY41JXZ&export=download",
+        "getMimeType": "image/jpeg",
+        "getSize": 186235
+    },
+    {
+        "sorszam": 33,
+        "getName": "Kung Fury; Két féle temetkezés; Pintér Timi: Risza Risza [ÖM #374].mp3",
+        "getUrl": "https://drive.google.com/file/d/1FvtDZuI8MCfvyEvmtAZ1kopeZkiFKcXa/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1FvtDZuI8MCfvyEvmtAZ1kopeZkiFKcXa&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 80827871
+    },
+    {
+        "sorszam": 34,
+        "getName": "Exatlon; Harsányi Levente és a Budai Project: Oltasd magad![ÖM #373].mp3",
+        "getUrl": "https://drive.google.com/file/d/1Lbo1sRmBcU_wexoWagY5g-qYOAB1ulmn/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Lbo1sRmBcU_wexoWagY5g-qYOAB1ulmn&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 77304475
+    },
+    {
+        "sorszam": 35,
+        "getName": "Friderikusz vs. Geszti podcast; Junkies: A szerelmedtől lettem ilyen [ÖM #372].mp3",
+        "getUrl": "https://drive.google.com/file/d/1P3F7vvlMug-QXazoLr5k2fcNQy4bfNgP/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1P3F7vvlMug-QXazoLr5k2fcNQy4bfNgP&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 77789726
+    },
+    {
+        "sorszam": 36,
+        "getName": "Tanítóm, a polip [ÖM #371].mp3",
+        "getUrl": "https://drive.google.com/file/d/1KiRsSJrYvQhWfOpxXfKTEYblJrZ2wSoh/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1KiRsSJrYvQhWfOpxXfKTEYblJrZ2wSoh&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 69295959
+    },
+    {
+        "sorszam": 37,
+        "getName": "A férfihoz jutás méltósága TOP20 [ÖM #370].mp3",
+        "getUrl": "https://drive.google.com/file/d/1Ly5nXP1SIQPdBIB7lCwGAwN-6I96eoHD/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Ly5nXP1SIQPdBIB7lCwGAwN-6I96eoHD&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 81216991
+    },
+    {
+        "sorszam": 38,
+        "getName": "Az online kommunikáció minősége;Kandalló TV; Cseh Tamás: Vízöntő jegyében [ÖM #369].mp3",
+        "getUrl": "https://drive.google.com/file/d/1cMYuOA25h4CKasbRWP114IchiDEiMxqk/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1cMYuOA25h4CKasbRWP114IchiDEiMxqk&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 87138219
+    },
+    {
+        "sorszam": 39,
+        "getName": "Kiút a politika emésztőgödréből – az Egyetem TV Puzsér-interjúja.mp4",
+        "getUrl": "https://drive.google.com/file/d/1VZuRNQ2nauymuuCugbH4IAq9riaRDxtz/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1VZuRNQ2nauymuuCugbH4IAq9riaRDxtz&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 391514158
+    },
+    {
+        "sorszam": 40,
+        "getName": "Kiút a politika emésztőgödréből – az Egyetem TV Puzsér-interjúja.m4a",
+        "getUrl": "https://drive.google.com/file/d/1-qc6do2wWK1Q3TpiY_y2aEGaFEopM4NG/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1-qc6do2wWK1Q3TpiY_y2aEGaFEopM4NG&export=download",
+        "getMimeType": "audio/x-m4a",
+        "getSize": 54237600
+    },
+    {
+        "sorszam": 41,
+        "getName": "A tíz legpusztítóbb magyar mítosz - Sznobjektív [#77].mp4",
+        "getUrl": "https://drive.google.com/file/d/1G55or6lT7tbk9T7-QVVX_SGza-3q2eOz/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1G55or6lT7tbk9T7-QVVX_SGza-3q2eOz&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 447285953
+    },
+    {
+        "sorszam": 42,
+        "getName": "A tíz leghitványabb magyar nyelvű tévéműsor – Sznobjektív [#76].mp4",
+        "getUrl": "https://drive.google.com/file/d/1Z8eLYNUUbvIo1-EaOJW_jCSOf0l2p3tN/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Z8eLYNUUbvIo1-EaOJW_jCSOf0l2p3tN&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 263099812
+    },
+    {
+        "sorszam": 43,
+        "getName": "Jellem, méltóság, megalázás; Dr. BRS, Varga Viktor, Biga: Koccintós [ÖM #368].mp3",
+        "getUrl": "https://drive.google.com/file/d/1HMtY30TwHz_IC8_tRCOuo56FmdfS-kpo/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1HMtY30TwHz_IC8_tRCOuo56FmdfS-kpo&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 81101217
+    },
+    {
+        "sorszam": 44,
+        "getName": "A tíz legpusztítóbb magyar mítosz - Sznobjektív [#77].mp3",
+        "getUrl": "https://drive.google.com/file/d/1RYGguOX4QhCHGDU14Hp9SsVqKXxNh2je/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1RYGguOX4QhCHGDU14Hp9SsVqKXxNh2je&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 39235544
+    },
+    {
+        "sorszam": 45,
+        "getName": "Öt az Unió és Orbán színjátékáról, Karácsony Gergelyről, Tóth Csabáról és az Egyensúly Intézetről.mp4",
+        "getUrl": "https://drive.google.com/file/d/1Fw6ss6wEu_-G0H3HQ242dd0FFmhY6z1t/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Fw6ss6wEu_-G0H3HQ242dd0FFmhY6z1t&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 576528298
+    },
+    {
+        "sorszam": 46,
+        "getName": "Öt az Unió és Orbán színjátékáról, a magas és sovány Karácsonyról, Tóth Csabáról és az Egyensúly Intézetről | 2021.05.14. .mp3",
+        "getUrl": "https://drive.google.com/file/d/1eU8pJ_51fHsngsYL11zz9Wa0O-HPBazW/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1eU8pJ_51fHsngsYL11zz9Wa0O-HPBazW&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 71533323
+    },
+    {
+        "sorszam": 47,
+        "getName": "Öt az Unió és Orbán színjátékáról, Karácsony Gergelyről, Tóth Csabáról és az Egyensúly Intézetről.description",
+        "getUrl": "https://drive.google.com/file/d/1_TzQa6ftP7JuR-cqSFEtbqDyI3XhYbOc/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1_TzQa6ftP7JuR-cqSFEtbqDyI3XhYbOc&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 305
+    },
+    {
+        "sorszam": 48,
+        "getName": "Öt az Unió és Orbán színjátékáról, Karácsony Gergelyről, Tóth Csabáról és az Egyensúly Intézetről.jpg",
+        "getUrl": "https://drive.google.com/file/d/1zDaLtPRetQVxXBz7Ew4-kmqIKB0mAmT-/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1zDaLtPRetQVxXBz7Ew4-kmqIKB0mAmT-&export=download",
+        "getMimeType": "image/webp",
+        "getSize": 4896
+    },
+    {
+        "sorszam": 49,
+        "getName": "Az előadóművészetek rendje [ÖM #367].mp3",
+        "getUrl": "https://drive.google.com/file/d/1H3ndoh2ctmTvj8kC9QUHAi-Nqnltg_yI/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1H3ndoh2ctmTvj8kC9QUHAi-Nqnltg_yI&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 114369932
+    },
+    {
+        "sorszam": 50,
+        "getName": "Bakancslisták; Ogli G: Szerelmes leszel [ÖM #366].mp3",
+        "getUrl": "https://drive.google.com/file/d/19xHSJBOIz9Nndm7oH4NMCZ4heDDHH0KE/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=19xHSJBOIz9Nndm7oH4NMCZ4heDDHH0KE&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 84648854
+    },
+    {
+        "sorszam": 51,
+        "getName": "Együttélés a '80-as években vs. napjainkban; Cserhalmi György: Hosszú menet [ÖM #365].mp3",
+        "getUrl": "https://drive.google.com/file/d/1QzsOSZvWrwUEGugoTTOu37N6UxGLSeG1/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1QzsOSZvWrwUEGugoTTOu37N6UxGLSeG1&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 86355381
+    },
+    {
+        "sorszam": 52,
+        "getName": "A 10 leghitványabb magyar nyelvű tv-műsor - Sznobjektív [#76].mp3",
+        "getUrl": "https://drive.google.com/file/d/1hllGaKYJ-3Llz3rIItPl02HkycY69aJ0/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1hllGaKYJ-3Llz3rIItPl02HkycY69aJ0&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 39458777
+    },
+    {
+        "sorszam": 53,
+        "getName": "Augusztus Oklahomában [ÖM #364].mp3",
+        "getUrl": "https://drive.google.com/file/d/1LtLCsuoRxzaguJiovEjYz-qMd6XpThms/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1LtLCsuoRxzaguJiovEjYz-qMd6XpThms&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 84644674
+    },
+    {
+        "sorszam": 54,
+        "getName": "Puzsér Róbert Sznobjektív című kulturális műsora hétfő esténként az ATV-n látható.mp4",
+        "getUrl": "https://drive.google.com/file/d/1AfVgmATY1SqtHf6w2saWBbVtgvNLoekJ/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1AfVgmATY1SqtHf6w2saWBbVtgvNLoekJ&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 33116185
+    },
+    {
+        "sorszam": 55,
+        "getName": "Puzsér Róbert Sznobjektív című kulturális műsora hétfő esténként az ATV-n látható.jpg",
+        "getUrl": "https://drive.google.com/file/d/11D-hzABOhwxUzqDXOM_st31KIdsr0cCE/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=11D-hzABOhwxUzqDXOM_st31KIdsr0cCE&export=download",
+        "getMimeType": "image/jpeg",
+        "getSize": 73958
+    },
+    {
+        "sorszam": 56,
+        "getName": "Puzsér Róbert Sznobjektív című kulturális műsora hétfő esténként az ATV-n látható.description",
+        "getUrl": "https://drive.google.com/file/d/1a81Snj9crcM0rdwM-80hCcAow-12Xf5Q/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1a81Snj9crcM0rdwM-80hCcAow-12Xf5Q&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 0
+    },
+    {
+        "sorszam": 57,
+        "getName": "The Father; Quimby Autó egy szerpentinen [ÖM #363].mp3",
+        "getUrl": "https://drive.google.com/file/d/1u6nU_IANGOtaY06oTBTOY5GyLHdOGiGQ/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1u6nU_IANGOtaY06oTBTOY5GyLHdOGiGQ&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 82687372
+    },
+    {
+        "sorszam": 58,
+        "getName": "Miért csak egy szavazatod van? Jazz + Az: Ma jól vagyok [ÖM #362].mp3",
+        "getUrl": "https://drive.google.com/file/d/1Okoi-MpcbiPvr6AbYeYbaJqu2w2uJAp9/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Okoi-MpcbiPvr6AbYeYbaJqu2w2uJAp9&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 78825847
+    },
+    {
+        "sorszam": 59,
+        "getName": "Nomadland; Első emelet: Állj vagy lövök [ÖM #361].mp3",
+        "getUrl": "https://drive.google.com/file/d/1Noku4Ih1oP5eGOQUE8-uDrB8EHJoG2Te/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Noku4Ih1oP5eGOQUE8-uDrB8EHJoG2Te&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 85248626
+    },
+    {
+        "sorszam": 60,
+        "getName": "Jeszenszky Zsolt nyalakodása Hajdú Péterrel a Pesti TV-ben.mp4",
+        "getUrl": "https://drive.google.com/file/d/1HSRiaej885akxjHps9txol9Tp77rKgLt/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1HSRiaej885akxjHps9txol9Tp77rKgLt&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 47503103
+    },
+    {
+        "sorszam": 61,
+        "getName": "Jeszenszky Zsolt nyalakodása Hajdú Péterrel a Pesti TV-ben.jpg",
+        "getUrl": "https://drive.google.com/file/d/1LKgZa0lC1vNuJeedHfEKHwe9slPp7RWT/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1LKgZa0lC1vNuJeedHfEKHwe9slPp7RWT&export=download",
+        "getMimeType": "image/jpeg",
+        "getSize": 273676
+    },
+    {
+        "sorszam": 62,
+        "getName": "Jeszenszky Zsolt nyalakodása Hajdú Péterrel a Pesti TV-ben.description",
+        "getUrl": "https://drive.google.com/file/d/1rSivwVIgLbR9_o872goThJWRdNAYm26P/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1rSivwVIgLbR9_o872goThJWRdNAYm26P&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 58
+    },
+    {
+        "sorszam": 63,
+        "getName": "Mélypontok; Roy és Ádám, Oláh Ibolya: Valamit Valamiért [ÖM #360].mp3",
+        "getUrl": "https://drive.google.com/file/d/1ZnCaHDS73MDy5vII62VkDvI2TpKcJnE1/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1ZnCaHDS73MDy5vII62VkDvI2TpKcJnE1&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 81980603
+    },
+    {
+        "sorszam": 64,
+        "getName": "Öt a közalapítványba szervezésről, a benthagyott hitelkeretről, a jelöltek pávatáncáról és Majkáról.mp4",
+        "getUrl": "https://drive.google.com/file/d/1q_GXrpKdiDYr8BC_KlPBMQN6dF04QQS1/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1q_GXrpKdiDYr8BC_KlPBMQN6dF04QQS1&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 678951157
+    },
+    {
+        "sorszam": 65,
+        "getName": "Öt a közalapítványba szervezésről, a benthagyott hitelkeretről, a jelöltek pávatáncáról és Majkáról.jpg",
+        "getUrl": "https://drive.google.com/file/d/174qtz6FZ1N1gHek_W1ZogcpGBwqBUXw7/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=174qtz6FZ1N1gHek_W1ZogcpGBwqBUXw7&export=download",
+        "getMimeType": "image/webp",
+        "getSize": 4896
+    },
+    {
+        "sorszam": 66,
+        "getName": "Öt a közalapítványba szervezésről, a benthagyott hitelkeretről, a jelöltek pávatáncáról és Majkáról.description",
+        "getUrl": "https://drive.google.com/file/d/1d8zPdZR8kHGWz5Rq1F1PqrQZuoubnunj/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1d8zPdZR8kHGWz5Rq1F1PqrQZuoubnunj&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 305
+    },
+    {
+        "sorszam": 67,
+        "getName": "Öt a közalapítványba szervezésről, a benthagyott hitelkeretről, a jelöltek pávatáncáról és Majkáról, a vagány szolgáról | 2021.04.30. .mp3",
+        "getUrl": "https://drive.google.com/file/d/1yJ8qFreZGf6yOYDbvRUcG_fT4f_JUzFa/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1yJ8qFreZGf6yOYDbvRUcG_fT4f_JUzFa&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 52592684
+    },
+    {
+        "sorszam": 68,
+        "getName": "Mitől vagyunk magyarok? [ÖM #359].mp3",
+        "getUrl": "https://drive.google.com/file/d/1ti-SA6vx6Kf-BYBvhwqRljGFgmRbO23R/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1ti-SA6vx6Kf-BYBvhwqRljGFgmRbO23R&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 74726085
+    },
+    {
+        "sorszam": 69,
+        "getName": "A nőhöz jutás méltóságának negyven kárhozati foka II. rész [ÖM #358].mp3",
+        "getUrl": "https://drive.google.com/file/d/1mO5d7cwg7_eQlzVa5r6_ONdC4oDIBp3Z/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1mO5d7cwg7_eQlzVa5r6_ONdC4oDIBp3Z&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 81099127
+    },
+    {
+        "sorszam": 70,
+        "getName": "Puzsér Róbert a médiaelit leválthatatlanságáról beszél a Felforgatók podcastban.description",
+        "getUrl": "https://drive.google.com/file/d/1KJgqrqIWFZf-MSGcNyqOVVOp0PgbNkDl/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1KJgqrqIWFZf-MSGcNyqOVVOp0PgbNkDl&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 457
+    },
+    {
+        "sorszam": 71,
+        "getName": "Puzsér Róbert a médiaelit leválthatatlanságáról beszél a Felforgatók podcastban.webp",
+        "getUrl": "https://drive.google.com/file/d/1EiIIlGuCETxdleCcMlxPlO4KWlsrIdZu/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1EiIIlGuCETxdleCcMlxPlO4KWlsrIdZu&export=download",
+        "getMimeType": "image/webp",
+        "getSize": 21154
+    },
+    {
+        "sorszam": 72,
+        "getName": "Puzsér Róbert a médiaelit leválthatatlanságáról beszél a Felforgatók podcastban.mp4",
+        "getUrl": "https://drive.google.com/file/d/1boQh7QH0wzL0dSCuek8wDoNRsE02ha2y/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1boQh7QH0wzL0dSCuek8wDoNRsE02ha2y&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 8835156
+    },
+    {
+        "sorszam": 73,
+        "getName": "A nőhöz jutás méltósága TOP40 I. Rész [ÖM #357].mp3",
+        "getUrl": "https://drive.google.com/file/d/1e2qkYsJBx4jSgCilduHAt762KifLxHpj/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1e2qkYsJBx4jSgCilduHAt762KifLxHpj&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 81671731
+    },
+    {
+        "sorszam": 74,
+        "getName": "Rozsda és csont; TNT: Rendőrnő [ÖM #356].mp3",
+        "getUrl": "https://drive.google.com/file/d/1Q3BeLe4ht2jUoDoO795BgLpEeBWfhWYw/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1Q3BeLe4ht2jUoDoO795BgLpEeBWfhWYw&export=download",
+        "getMimeType": "audio/mpeg",
+        "getSize": 85687065
+    },
+    {
+        "sorszam": 75,
+        "getName": "A kereszténység 10 fő bűne _ Puzsér, FAM, Nagy Gergely.mp4",
+        "getUrl": "https://drive.google.com/file/d/1hfbPh6if4thw0w2yD32QyfYzvZvCmmDH/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1hfbPh6if4thw0w2yD32QyfYzvZvCmmDH&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 586206736
+    },
+    {
+        "sorszam": 76,
+        "getName": "A kereszténység 10 fő bűne _ Puzsér, FAM, Nagy Gergely.m4a",
+        "getUrl": "https://drive.google.com/file/d/1BAjeWG55CuxRiYSNI2mmgUNhyalGtO0A/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1BAjeWG55CuxRiYSNI2mmgUNhyalGtO0A&export=download",
+        "getMimeType": "audio/x-m4a",
+        "getSize": 131455797
+    },
+    {
+        "sorszam": 77,
+        "getName": "A kereszténység 10 fő bűne _ Puzsér, FAM, Nagy Gergely.description",
+        "getUrl": "https://drive.google.com/file/d/1KOQra4UB0b5t5MLcCh_o6KvmA9jgs587/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1KOQra4UB0b5t5MLcCh_o6KvmA9jgs587&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 240
+    },
+    {
+        "sorszam": 78,
+        "getName": "A kereszténység 10 fő bűne _ Puzsér, FAM, Nagy Gergely.jpg",
+        "getUrl": "https://drive.google.com/file/d/1DUqw51vfLhhgcvARqIrpL76Nk-vxCBgd/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1DUqw51vfLhhgcvARqIrpL76Nk-vxCBgd&export=download",
+        "getMimeType": "image/jpeg",
+        "getSize": 143778
+    },
+    {
+        "sorszam": 79,
+        "getName": "Jó tévét! Extended Version feat. Nemtudom-Győr András.mp4",
+        "getUrl": "https://drive.google.com/file/d/1hQcMvuV91Bv0u3T0b6CSdUecIMJ-5JYt/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1hQcMvuV91Bv0u3T0b6CSdUecIMJ-5JYt&export=download",
+        "getMimeType": "video/mp4",
+        "getSize": 5775274
+    },
+    {
+        "sorszam": 80,
+        "getName": "Jó tévét! Extended Version feat. Nemtudom-Győr András.jpg",
+        "getUrl": "https://drive.google.com/file/d/11tpi02YQnfXtJisNUsQj4wa-sPetCnOk/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=11tpi02YQnfXtJisNUsQj4wa-sPetCnOk&export=download",
+        "getMimeType": "image/webp",
+        "getSize": 19418
+    },
+    {
+        "sorszam": 81,
+        "getName": "Jó tévét! Extended Version feat. Nemtudom-Győr András.description",
+        "getUrl": "https://drive.google.com/file/d/1gtrVmz2lWekBsVa9dTmnPJIhhKwQG5QG/view?usp=drivesdk",
+        "getDownloadUrl": "https://drive.google.com/uc?id=1gtrVmz2lWekBsVa9dTmnPJIhhKwQG5QG&export=download",
+        "getMimeType": "application/octet-stream",
+        "getSize": 61
+    },
+
+
     {
         "sorszam": 5,
         "getName": "Szabadfogás #90 _ 2017.06.14.-6y2vY5sCulE.mp4",
