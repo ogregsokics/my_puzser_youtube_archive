@@ -1,5 +1,5 @@
 let filter1 = document.querySelector('#filter1');
-let filter2 = document.querySelector('#filter2');
+
 let list = document.getElementById('book-list');
 let row = document.createElement('tr');
 
@@ -12,42 +12,38 @@ function loadEventListeners() {
 
     // Filter tasks event
     filter1.addEventListener('keyup', filterTasks);
-    filter2.addEventListener('keyup', filterTasks);
+
+    document.querySelectorAll(".item").forEach(box =>
+        box.addEventListener("click", (e) => getJson(e.target.name)));
+
 }
 
 
 
-document.getElementById('button2').addEventListener('click', getJson);
-document.getElementById('button3').addEventListener('click', getpics);
 
 
 
-
-function bytesToSize(bytes) {
+/*function bytesToSize(bytes) {
     var sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
     if (bytes == 0) return '0 Byte';
     var i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
     return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
 }
+*/
 
 
 
+function getJson(playlist) {
+
+    list.innerHTML = "";
+    fetch(`https://eu-central-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/rest-reviews-jowjb/service/puzser_drive_links/incoming_webhook/search?parent_folder=${playlist}`)
+        .then(response => response.json())
+        .then(response => {
+
+            console.log(response);
 
 
-// Get local json data
-function getJson() {
-
-
-    fetch('videos.json')
-        .then(function(res) {
-            return res.json();
-        })
-        .then(function(data) {
-
-            list.innerHTML = '';
-            // console.log(data);
-            // let output = '';
-            data.forEach(function(book) {
+            response.elements.forEach(function(book) {
 
 
 
@@ -60,111 +56,25 @@ function getJson() {
 
                 // Insert cols
                 row.innerHTML = `
-      <td>${book.sorszam}</td>
-      <td>${book.getName}</td>
-      <td>${book.getMimeType}</td>
-      <td>${bytesToSize(book.getSize)}</td>
+
+<td>${book.getName}</td>
+<td>${book.parent_folder}</td>
+<td>${book.getMimeType}</td>
+<td><a href="${book.getPreviewURL}" target="_blank" class="btn btn-primary btn-block mb-2">view_in_browser</a></td>
+<td><a href="${book.getDownloadUrl}" target="_blank" class="btn btn-primary btn-block mb-2">DOWNLOAD</a></td>
       
-      <td><a href="${book.getUrl}" target="_blank" class="btn btn-primary btn-block mb-2">view_in_browser</a></td>
-      <td><a href="${book.getDownloadUrl}" target="_blank" class="btn btn-primary btn-block mb-2">DOWNLOAD</a></td>
-  
-    `;
+
+      `;
+
 
                 list.appendChild(row);
 
-
-
-                //  output += `<li>${post.title}</li>`;
-
-
-
-
             });
-            //  document.getElementById('output').innerHTML = output;
-
-
-
-
-
 
 
 
         })
-        .catch(function(err) {
-            console.log(err);
-        });
 }
-
-
-
-
-// Get local json data
-function getpics() {
-
-
-    fetch('pics.json')
-        .then(function(res) {
-            return res.json();
-        })
-        .then(function(data) {
-
-            list.innerHTML = '';
-            //console.log(data);
-            // let output = '';
-            data.forEach(function(book) {
-
-
-
-                //const list = document.getElementById('book-list');
-                // Create tr element
-                let row = document.createElement('tr');
-
-
-
-
-                // Insert cols
-                row.innerHTML = `
-      <td>${book.name}</td>
-      
-      
-      
-      <td><a href="https://tj3hx8tlwzbfakvcigtytg-on.drv.tw/images_desc/thumbnails_descr/${encodeURIComponent(book.name)}" target="_blank" class="btn btn-primary btn-block mb-2">DOWNLOAD</a></td>
-  
-    `;
-
-                list.appendChild(row);
-
-
-
-                //  output += `<li>${post.title}</li>`;
-
-
-
-
-            });
-            //  document.getElementById('output').innerHTML = output;
-
-
-
-
-
-
-
-
-        })
-        .catch(function(err) {
-            console.log(err);
-        });
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -177,152 +87,45 @@ function filterTasks(e) {
 
     let text = e.target.value.toLowerCase();
 
-    //console.log(e.target.id);
-
-    if (e.target.id == "filter1") {
 
 
+    list.innerHTML = "";
+    fetch(`https://eu-central-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/rest-reviews-jowjb/service/puzser_drive_links/incoming_webhook/search?getName=${text}`)
+        .then(response => response.json())
+        .then(response => {
 
-        fetch('videos.json')
-            .then(function(res) {
-                return res.json();
-            })
-            .then(function(data) {
-
-
-                //console.log(data);
-                list.innerHTML = '';
+            console.log(response);
 
 
-                data.forEach(function(book) {
-
-
-                    // if (text == "") {
-
-                    //    getJson();
-                    //    } 
+            response.elements.forEach(function(book) {
 
 
 
-                    if (book.getName.toLowerCase().indexOf(text) != -1) {
-
-                        //  console.log(book.name);
-
-
-                        // Create tr element
-                        let row = document.createElement('tr');
+                //const list = document.getElementById('book-list');
+                // Create tr element
+                let row = document.createElement('tr');
 
 
 
-                        // Insert cols
-                        row.innerHTML = `
-      <td>${book.sorszam}</td>
-      <td>${book.getName}</td>
-      <td>${book.getMimeType}</td>
-      <td>${bytesToSize(book.getSize)}</td>
+
+                // Insert cols
+                row.innerHTML = `
+
+<td>${book.getName}</td>
+<td>${book.parent_folder}</td>
+<td>${book.getMimeType}</td>
+<td><a href="${book.getPreviewURL}" target="_blank" class="btn btn-primary btn-block mb-2">view_in_browser</a></td>
+<td><a href="${book.getDownloadUrl}" target="_blank" class="btn btn-primary btn-block mb-2">DOWNLOAD</a></td>
       
-      <td><a href="${book.getUrl}" target="_blank" class="btn btn-primary btn-block mb-2">view_in_browser</a></td>
-      <td><a href="${book.getDownloadUrl}" target="_blank" class="btn btn-primary btn-block mb-2">DOWNLOAD</a></td>
-  
-    `;
 
-                        list.appendChild(row);
+      `;
 
 
-                    }
+                list.appendChild(row);
 
-
-
-                    //  output += `<li>${post.title}</li>`;
-
-
-
-
-                });
-                //  document.getElementById('output').innerHTML = output;
-
-
-
-            })
-            .catch(function(err) {
-                console.log(err);
             });
 
 
 
-
-    }
-
-
-    if (e.target.id == "filter2") {
-
-        fetch('pics.json')
-            .then(function(res) {
-                return res.json();
-            })
-            .then(function(data) {
-
-                list.innerHTML = '';
-                //console.log(data);
-                // let output = '';
-                data.forEach(function(book) {
-
-                    if (book.name.toLowerCase().indexOf(text) != -1) {
-
-                        //  console.log(book.name);
-
-
-                        // Create tr element
-                        let row = document.createElement('tr');
-
-
-
-
-                        // Insert cols
-                        row.innerHTML = `
-      <td>${book.name}</td>
-      
-     
-      
-      <td><a href="https://tj3hx8tlwzbfakvcigtytg-on.drv.tw/images_desc/thumbnails_descr/${encodeURIComponent(book.name)}" target="_blank" class="btn btn-primary btn-block mb-2">DOWNLOAD</a></td>
-  
-    `;
-
-                        list.appendChild(row);
-
-                    }
-
-
-
-                    //const list = document.getElementById('book-list');
-                    // Create tr element
-
-
-
-
-                    //  output += `<li>${post.title}</li>`;
-
-
-
-
-                });
-                //  document.getElementById('output').innerHTML = output;
-
-
-
-
-
-
-
-
-            })
-            .catch(function(err) {
-                console.log(err);
-            });
-
-
-
-
-
-    }
+        })
 }
