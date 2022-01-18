@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puzsér Archive</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="extras.css">
+    <!--<link rel="stylesheet" href="dist/latest/skel.css">-->
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        var entityMap = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': '&quot;',
+    "'": '&#39;',
+    "/": '&#x2F;'
+  }
+
+  function escapeHtml(string) {
+    return String(string).replace(/[&<>"'\/]/g, function (s) {
+      return entityMap[s];
+    });
+  }
+
+  $(function() {
+    $('.toggle-visible').on('click', function(e){
+      e.preventDefault();
+      var target = $(this).attr('href');
+      $(target).toggleClass('visible');
+    })
+
+    var $codeSnippets = $('.code-example-body');
+    $codeSnippets.each(function() {
+      var newContent = escapeHtml($(this).html().replace(/^\n/g, ''))
+      $(this).html(newContent)
+    })
+  })
+  </script>
+    <style>
+        .item:hover {
+    cursor: pointer;
+    display: block;
+}
+
+
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Puzsér Audio & Video Archive</h1>
+    </div>
+    <div class="navbar">
+        <div class="container">
+            <a href="#mobile-menu2" class="toggle-visible right sm:visible menu-icon"></a>
+            <ul class="left menu sm:hidden" id="mobile-menu2">
+                <li class="hover dropdown">
+                    <span class="item">ÉLŐ PROJEKTEK<i class="caret"></i></span>
+                    <ul class="menu">
+                        <li><a class="item" name="elobeszed">Élőbeszéd [nyilvános előadások, viták, beszélgetések]</a></li>
+                        <li><a class="item" name="apu">Apu azért iszik, mert te sírsz! [2011-2021]</a></li>
+                        <li><a class="item" name="sznob_50_legjobb_klip">Sznobjektív - Az 50 Legjobb Klip [2012-2013]</a></li>
+                        <li><a class="item" name="elo_reklam">Élő reklámtörvényszéki ülések [2013]</a></li>
+                        <li><a class="item" name="sznob_50_legjobb_eloado">Sznobjektív - Az 50 Legjobb Előadó [2013-2014]</a></li>
+                        <li><a class="item" name="sznob_100_legszarabb_magyar_slager">SZNOBJEKTÍV SUPRA Shits - A 100 Legszarabb Magyar Sláger [2014]</a></li>
+                        <li><a class="item" name="sznob_100_legszarabb_slager">SZNOBJEKTÍV Greatest Shits - A 100 Legszarabb Sláger [2014]</a></li>
+                        <li><a class="item" name="sznob_david_bowie_special">SZNOBJEKTÍV - DAVID BOWIE SPECIAL [2016]</a></li>
+                        <li><a class="item" name="hard_talk">HARD TALK Puzsér Róberttel [2016-2021]</a></li>
+                        <li><a class="item" name="sb_2019">Sétáló Budapest 2019</a></li>
+                    </ul>
+                </li>
+                <li class="hover dropdown">
+                    <span class="item">ONLINE PROJEKTEK<i class="caret"></i></span>
+                    <ul class="menu">
+                        <li><a class="item" name="megmondo">Megmondó Vlog</a></li>
+                        <li><a class="item" name="paradox">MC Paradox & More</a></li>
+                        <li><a class="item" name="raklamtvszek_vlog">Reklámtörvényszék Videóblog [2009-2015]</a></li>
+                        <li><a class="item" name="boy">Puzsér & Gödri - Best of YouTube [2012]</a></li>
+                        <li><a class="item" name="videoblog">Puzsér - Videóblog [2012-2014]</a></li>
+                        <li><a class="item" name="ki_mit_tube">Puzsér - Ki Mit Tube [2014 - 2015]</a></li>
+                        <li><a class="item" name="aki_ner_az_nyer">Aki NER, Az Nyer 2010-2018 Golden Hits Collection</a></li>
+                        <li><a class="item" name="judapest">Judapest Agyarország Fűvárosa [2018-2019]</a></li>
+                        <li><a class="item" name="emda">Éhes makkal disznót álmodok [2020]</a></li>
+                        <li><a class="item" name="szamizdat">EXTRÁK</a></li>
+                    </ul>
+                </li>
+                <li class="hover dropdown">
+                    <span class="item">TÉVÉS PROJEKTEK<i class="caret"></i></span>
+                    <ul class="menu">
+                        <li><a class="item" name="tv">Puzsér TV [tévés és online szereplések]</a></li>
+                        <li><a class="item" name="gang">Gang [2004-2005]</a></li>
+                        <li><a class="item" name="na_mi_ujsag">Na, mi újság? [2007-2008]</a></li>
+                        <li><a class="item" name="lapzarta">Lapzárta a HírTV-n [2007-2008]</a></li>
+                        <li><a class="item" name="szem">Szigorúan Ellenőrzött Mondatok [2008]</a></li>
+                        <li><a class="item" name="csillag">Puzsér - Csillag Születik [2012]</a></li>
+                        <li><a class="item" name="aranyloves">Aranylövés Puzsérral [2014-2015]</a></li>
+                        <li><a class="item" name="szabadfogas">Szabadfogás [2015-2018]</a></li>
+                        <li><a class="item" name="kotottfogas">Kötöttfogás [2018-2021]</a></li>
+                        <li><a class="item" name="sznob_tv">Sznobjektív a tévéképernyőn [2016-2021]</a></li>
+                        <li><a class="item" name="ot">Öt – Véleményműsor az ATV-n [2020-2021]</a></li>
+                </li>
+            </ul>
+            <li class="hover dropdown">
+                <span class="item">RÁDIÓS PROJEKTEK<i class="caret"></i></span>
+                <ul class="menu">
+                    <li><a class="item" name="radio">Puzsér Rádió [rádiós szereplések és podcastok]</a></li>
+                    <li><a class="item" name="szelsokozep_drt_art">Szélsőközép, Demokrácia Rt, Apokalipszis Rt [2005-2008]</a></li>
+                    <li><a class="item" name="ahm">A Hét Mesterlövésze [2009-2011]</a></li>
+                    <li><a class="item" name="ahm_filmek_kulon">A Hét Mesterlövésze - Filmek külön [2009-2011]</a></li>
+                    <li><a class="item" name="ahm_top10">A Hét Mesterlövésze - Top 10-es listák [2009-2011]</a></li>
+                    <li><a class="item" name="ahm_top100">A Hét Mesterlövésze - A 100 Legjobb Film [2009-2011]</a></li>
+                    <li><a class="item" name="szelsokozep_2016-2017">Szélsőközép – Ellenkulturális Magazin [2016-2017]</a></li>
+                    <li><a class="item" name="jrn">A Jó, a Rossz és a Nézhetetlen [2017-2019]</a></li>
+                    <li><a class="item" name="om">Önkényes Mérvadó [2015-2022]</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+                <div id="main1" class="card">
+                    <div class="card-action">
+                        <div class="input-field col s3">
+                            <input type="text" name="filter" id="filter1" placeholder="KERESÉS CÍM SZERINT">
+                        </div>
+                        <a class="button" id="search_btn">KERESÉS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <table class="u-full-width">
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
