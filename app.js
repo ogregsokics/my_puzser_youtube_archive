@@ -114,7 +114,7 @@ function filterTasks() {
 
                 if (book.getName.toLowerCase().indexOf(text) != -1) {
 
-                    talalat++;
+                  
 
                     let row = document.createElement('tr');
 
