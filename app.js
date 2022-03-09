@@ -7,6 +7,8 @@ let row = document.createElement('tr');
 loadEventListeners();
 
 
+
+
 function loadEventListeners() {
 
 
@@ -23,6 +25,8 @@ function loadEventListeners() {
         box.addEventListener("click", (e) => getJson(e.target.name)));
 
 }
+
+
 
 
 let compare = (obj1, obj2) => {
@@ -89,7 +93,72 @@ function getJson(playlist) {
 
 
 
+
+
 function filterTasks() {
+
+
+    let text = filter1.value.toLowerCase();
+
+    list.innerHTML = "";
+
+
+    fetch("recent_links.json")
+        .then(response => response.json())
+        .then(data => {
+
+            data.forEach(function(book) {
+
+
+
+
+                if (book.getName.toLowerCase().indexOf(text) != -1) {
+
+                    talalat++;
+
+                    let row = document.createElement('tr');
+
+
+                    row.innerHTML = `
+
+                    <td>${book.getName}</td>
+                    <td class="text-center">${book.parent_folder}</td>
+                    <td class="text-center">${book.getMimeType}</td>
+                    <td class="text-center"><a href="${book.getPreviewURL}" target="_blank" class="button">LEJÁTSZÁS</a></td>
+                    <td class="text-center"><a href="${book.getDownloadUrl}" target="_blank" class="button">LETÖLTÉS</a></td>
+
+                `;
+
+
+                    list.appendChild(row);
+
+
+                }
+
+
+
+
+
+
+            })
+
+           
+
+        })
+
+
+
+
+
+}
+
+
+
+
+
+// search in mongodb getname text 
+
+/*function filterTasks() {
 
 
     let text = filter1.value.toLowerCase();
@@ -141,4 +210,4 @@ function filterTasks() {
 
 
         })
-}
+}*/
