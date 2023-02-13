@@ -165,6 +165,8 @@ function getJson(playlist) {
     fetch("recent_links.json")
         .then(response => response.json())
         .then(data => {
+        
+        data.sort(compare);
 
             data.forEach(function(book) {
 
