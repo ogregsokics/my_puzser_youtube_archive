@@ -171,7 +171,7 @@ function getJson(playlist) {
 
 
 
-                if (book.getName.toLowerCase().indexOf(playlist) != -1) {
+                if (book.parent_folder.toLowerCase().indexOf(playlist) != -1) {
 
                   
 
