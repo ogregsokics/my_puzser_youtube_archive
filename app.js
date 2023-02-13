@@ -171,7 +171,7 @@ function getJson(playlist) {
 
 
 
-                if (book.parent_folder.indexOf(playlist) != -1) {
+               if (book.parent_folder == playlist) {
 
                   
 
