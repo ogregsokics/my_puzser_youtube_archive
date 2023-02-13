@@ -59,7 +59,7 @@ let compare = (obj1, obj2) => {
 
 
 
-function getJson(playlist) {
+/*function getJson(playlist) {
 
     list.innerHTML = "";
     fetch(`https://eu-central-1.aws.webhooks.mongodb-realm.com/api/client/v2.0/app/rest-reviews-jowjb/service/puzser_drive_links/incoming_webhook/search?parent_folder=${playlist}`)
@@ -89,7 +89,7 @@ function getJson(playlist) {
             });
 
         })
-}
+}*/
 
 
 
@@ -113,6 +113,65 @@ function filterTasks() {
 
 
                 if (book.getName.toLowerCase().indexOf(text) != -1) {
+
+                  
+
+                    let row = document.createElement('tr');
+
+
+                    row.innerHTML = `
+
+                    <td>${book.getName}</td>
+                    <td class="text-center">${book.parent_folder}</td>
+                    <td class="text-center">${book.getMimeType}</td>
+                    <td class="text-center"><a href="${book.getPreviewURL}" target="_blank" class="button">LEJÁTSZÁS</a></td>
+                    <td class="text-center"><a href="${book.getDownloadUrl}" target="_blank" class="button">LETÖLTÉS</a></td>
+
+                `;
+
+
+                    list.appendChild(row);
+
+
+                }
+
+
+
+
+
+
+            })
+
+           
+
+        })
+
+
+
+
+
+}
+
+
+
+function getJson(playlist) {
+
+
+   
+
+    list.innerHTML = "";
+
+
+    fetch("recent_links.json")
+        .then(response => response.json())
+        .then(data => {
+
+            data.forEach(function(book) {
+
+
+
+
+                if (book.getName.toLowerCase().indexOf(playlist) != -1) {
 
                   
 
